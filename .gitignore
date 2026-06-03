@@ -1,7 +1,9 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-.DS_Store
+# 忽略所有文件
+*
 
-/.quarto/
+# 但是保留 docs 文件夹和里面所有内容
+!docs/
+!docs/**
+
+# 保留 .gitignore 本身
+!.gitignore

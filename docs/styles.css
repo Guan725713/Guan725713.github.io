@@ -589,25 +589,6 @@ p {
     background: #ffffff;
   }
 
-  /* 下载简历按钮特殊样式：最后一个菜单项 */
-  #quarto-sidebar .sidebar-item:last-child .sidebar-item-container a {
-    margin-top: 14px !important;
-    background: #0f172a !important;
-    color: #ffffff !important;
-    justify-content: center !important;
-    font-weight: 800 !important;
-    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.20) !important;
-  }
-
-  #quarto-sidebar .sidebar-item:last-child .sidebar-item-container a::before {
-    display: none;
-  }
-
-  #quarto-sidebar .sidebar-item:last-child .sidebar-item-container a:hover {
-    background: #1d4ed8 !important;
-    color: #ffffff !important;
-    transform: translateY(-2px);
-  }
 
   /* 侧边栏滚动条 */
   #quarto-sidebar::-webkit-scrollbar {
